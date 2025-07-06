@@ -1,4 +1,4 @@
-name: Print Info
+name: Print Information
 
 on:
     push:
