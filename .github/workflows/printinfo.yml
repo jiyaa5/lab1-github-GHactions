@@ -11,10 +11,10 @@ jobs:
     
         env:
             Repo_Name: ${{github.repository}}
-            Username : ${{github.actor}}
+            S_username : ${{github.actor}}
 
         steps:
-            -name: Print repository name
-            run: |
-            echo "Repository: $Repo_Name"
-            echo "Student Username: $Username"
+            - name: Print repository name
+              run: |
+               echo "Repository: $Repo_Name"
+               echo "Student Username: $S_username"
